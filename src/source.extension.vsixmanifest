@@ -5,7 +5,7 @@
         <DisplayName>Festive Editor</DisplayName>
         <Description xml:space="preserve">Add festive additions to the editor</Description>
         <MoreInfo>https://github.com/mrlacey/FestiveEditor</MoreInfo>
-        <License>/Resources/License</License>
+        <License>Resources\LICENSE</License>
         <Icon>Images\holly_top_right.png</Icon>
     </Metadata>
     <Installation>
