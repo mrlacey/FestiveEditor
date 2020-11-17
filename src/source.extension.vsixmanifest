@@ -3,10 +3,12 @@
     <Metadata>
         <Identity Id="FestiveEditor.691e6f4f-699b-4e1f-950f-88d1d56d1e23" Version="1.0" Language="en-US" Publisher="Matt Lacey" />
         <DisplayName>Festive Editor</DisplayName>
-        <Description xml:space="preserve">Add festive additions to the editor.</Description>
+        <Description xml:space="preserve">Add festive additions to the editor.
+This is an example extension created as part of an article showing how to get started with Visual Studio extensibility development.</Description>
         <MoreInfo>https://github.com/mrlacey/FestiveEditor</MoreInfo>
         <License>Resources\LICENSE</License>
         <Icon>Resources\logo.png</Icon>
+        <Tags>festive, editor, christmas, demo, example, </Tags>
     </Metadata>
     <Installation>
         <InstallationTarget Id="Microsoft.VisualStudio.Community" Version="[16.0, 17.0)" />
