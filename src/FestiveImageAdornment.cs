@@ -40,8 +40,11 @@ namespace FestiveEditor
                     this.Source = GetImagePath("snowman.png");
                     break;
                 case 7:
-                default:
                     this.Source = GetImagePath("santa.png");
+                    break;
+                case 8:
+                default:
+                    this.Source = GetImagePath("reindeer.png");
                     break;
             }
         }

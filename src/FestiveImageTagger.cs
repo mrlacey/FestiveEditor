@@ -8,7 +8,7 @@ namespace FestiveEditor
         internal FestiveImageTagger(ITextBuffer buffer)
             : base(
                     buffer,
-                    new[] { new Regex(@"\W(\w{3,7})\W", RegexOptions.Compiled | RegexOptions.CultureInvariant | RegexOptions.IgnoreCase) })
+                    new[] { new Regex(@"\W(\w{3,8})\W", RegexOptions.Compiled | RegexOptions.CultureInvariant | RegexOptions.IgnoreCase) })
         {
         }
 

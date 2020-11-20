@@ -34,11 +34,12 @@ namespace FestiveEditor
         public void TextViewCreated(IWpfTextView textView)
         {
             // The adorments will get wired to the text view events
-            new MistletoeAdornment(textView);
-            new TopLeftHollyAdornment(textView);
-            new TopRightHollyAdornment(textView);
-            new BottomLeftHollyAdornment(textView);
-            new BottomRightHollyAdornment(textView);
+            //new MistletoeAdornment(textView);
+            //new TopLeftHollyAdornment(textView);
+            //new TopRightHollyAdornment(textView);
+            //new BottomLeftHollyAdornment(textView);
+            //new BottomRightHollyAdornment(textView);
+            new BuildIndicatorAdornment(textView);
         }
     }
 }
